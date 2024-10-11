@@ -82,7 +82,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #e7ffd1;
+  background-color: #f3fafe;
 }
 
 .header_section .container-fluid {
@@ -273,6 +273,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
+  margin-bottom: 50px;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -330,7 +331,7 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  width: 49em;
+  width: 80em;
 }
 
 .feature_section {
@@ -447,7 +448,7 @@ a:focus {
 }
 
 .professional_section {
-  background-color: #dfdcec;
+  background-color: #f2f0fe;
 }
 
 .professional_section .row {
@@ -458,6 +459,8 @@ a:focus {
 
 .professional_section .img-box img {
   width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .professional_section .detail-box h2 {
@@ -610,6 +613,11 @@ a:focus {
 .client_section .box .client_id .img-box img {
   width: 100%;
   border-radius: 100%;
+}
+.col-md-6 .img-box img {
+  width: 100%;
+  height: auto;  /* Maintain aspect ratio */
+  max-width: 100%;  /* Prevent image from exceeding container size */
 }
 
 .client_section .box .client_id .client_detail {
