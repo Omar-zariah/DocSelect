@@ -701,6 +701,7 @@ a:focus {
 }
 
 .contact_section input.message-box {
+  width: 100%;
   height: 135px;
 }
 
